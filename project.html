@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты команды</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2563eb;
+            margin-bottom: 30px;
+        }
+
+        .wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            width: 320px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.1);
+        }
+
+            .card:hover {
+                box-shadow: 0 6px 16px rgba(0,0,0,.15);
+            }
+
+            .card h2 {
+                color: #1e293b;
+                margin: 10px 0;
+                font-size: 1.2rem;
+            }
+
+            .card p {
+                font-size: .9rem;
+            }
+
+        .status {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: .75rem;
+            font-weight: bold;
+        }
+
+        .active {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .dev {
+            background: #fef9c3;
+            color: #854d0e;
+        }
+
+        .test {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .team {
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+            margin-top: 10px;
+            font-size: .85rem;
+        }
+
+            .team b {
+                color: #64748b;
+                display: block;
+                margin-bottom: 5px;
+                font-size: .75rem;
+                text-transform: uppercase;
+            }
+
+        .name {
+            display: inline-block;
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 3px 8px;
+            border-radius: 12px;
+            margin: 2px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #888;
+            font-size: .85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Проекты нашей команды</h1>
+
+    <div class="wrap">
+
+        <div class="card">
+            <span class="status active">В продакшене</span>
+            <h2>🚀 EduFlow Platform</h2>
+            <p>Образовательная платформа с интерактивными курсами, геймификацией и адаптивным расписанием для студентов и преподавателей.</p>
+            <div class="team">
+                <b>Команда:</b>
+                <span class="name">Садоха Даник</span>
+                <span class="name">Папко Даник</span>
+                <span class="name">Тарасенко Николай</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="status dev">В разработке</span>
+            <h2>📊 DataViz Analytics</h2>
+            <p>Инструмент визуализации больших данных в реальном времени. Построение дашбордов без кода для бизнес-аналитиков.</p>
+            <div class="team">
+                <b>Команда:</b>
+                <span class="name">Максимович Арсений</span>
+                <span class="name">Ходарович Никита</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="status test">Бета-тест</span>
+            <h2>🎮 CyberQuest RPG</h2>
+            <p>Многопользовательская RPG в киберпанк-сеттинге с процедурной генерацией уровней, крафтом и PvP-аренами.</p>
+            <div class="team">
+                <b>Команда:</b>
+                <span class="name">Тарасенко Николай</span>
+                <span class="name">Садоха Даник</span>
+                <span class="name">Максимович Арсений</span>
+                <span class="name">Ходарович Никита</span>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>&copy; 2026 Отдел разработки</footer>
+
+</body>
+</html>
