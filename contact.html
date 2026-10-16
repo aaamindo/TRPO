@@ -1,105 +1,55 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Разработчики</title>
-
+    <meta charset="utf-8" />
+    <title>Контакты</title>
     <style>
         body {
             font-family: Georgia, 'Times New Roman', serif;
             background: #d4f1e8;
             margin: 0;
-            padding: 30px;
-            text-align: center;
+            padding: 20px;
             color: #1a1a1a;
+            text-align: center;
         }
 
         h1 {
             font-family: Verdana, Geneva, sans-serif;
-            margin-bottom: 30px;
             color: #2c3e50;
+            margin-bottom: 20px;
         }
 
-        .team {
-            display: flex;
-            justify-content: center;
-            align-items: stretch;
-            flex-wrap: wrap;
-            gap: 25px;
+        .contacts {
+            background: #ffffff;
+            padding: 20px 25px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
-        .card {
-            background-color: #ffffff;
-            width: 220px;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-            .card img {
-                width: 130px;
-                height: 130px;
-                border-radius: 50%;
-                object-fit: cover;
-                display: block;
-                margin: 0 auto 15px;
-            }
-
-            .card h3 {
-                font-family: Verdana, Geneva, sans-serif;
-                font-size: 16px;
-                color: #2c3e50;
+            .contacts p {
                 margin: 10px 0;
+                font-size: 16px;
+                line-height: 1.5;
             }
 
-            .card p {
-                color: #555;
-                font-size: 15px;
-                margin-bottom: 0;
-            }
+                .contacts p strong {
+                    color: #2c3e50;
+                }
     </style>
 </head>
-
 <body>
+    <h1>Наши контакты</h1>
 
-    <h1>Наша команда</h1>
-
-    <div class="team">
-
-        <div class="card">
-            <img src="https://avatars.mds.yandex.net/i?id=ccbfa71fac52de5cbb357d1414aa966c58c8c1fa-3631034-images-thumbs&n=13" alt="Фото Арсения">
-            <h3>Максимович Арсений Александрович</h3>
-            <p>17 лет</p>
-        </div>
-
-        <div class="card">
-            <img src="https://avatars.mds.yandex.net/i?id=27e3fb89da45ffdb901c06b919b238e48b2fd613-4904183-images-thumbs&n=13" alt="Фото Данилы">
-            <h3>Папко Данила Евгеньевич</h3>
-            <p>17 лет</p>
-        </div>
-
-        <div class="card">
-            <img src="https://avatars.mds.yandex.net/i?id=958935ae86302831f2bddcb52e833ad41ca0239f-8210460-images-thumbs&n=13" alt="Фото Никиты">
-            <h3>Ходарович Никита Андреевич</h3>
-            <p>17 лет</p>
-        </div>
-
-        <div class="card">
-            <img src="https://avatars.mds.yandex.net/i?id=1b9dac3f52f0f8a94d3777f624b8c928a1166b06-5316602-images-thumbs&n=13" alt="Фото Николая">
-            <h3>Тарасенко Николай Мустафаевич</h3>
-            <p>17 лет</p>
-        </div>
-
-        <div class="card">
-            <img src="https://avatars.mds.yandex.net/i?id=5f8f0c3182af4e35e30f3130eb794bdfa58f18d7-4373853-images-thumbs&n=13" alt="Фото Даника">
-            <h3>Садоха Даник Александрович</h3>
-            <p>17 лет</p>
-        </div>
-
+    <div class="contacts">
+        <p><strong>Адрес:</strong> г. Полоцк, ул. Октябрьская, 55</p>
+        <p><strong>Телефон Тарасенко Н.М.:</strong> +375 29 765 9699</p>
+        <p><strong>Телефон Папко Д.Е.:</strong> +375 29 530 2861</p>
+        <p><strong>Телефон Максимович А.А.:</strong> +375 33 375 7853</p>
+        <p><strong>Телефон Ходарович Н.А.:</strong> +375 33 659 2311</p>
+        <p><strong>Телефон Садоха Д.А.:</strong> +375 29 712 5151</p>
     </div>
-
 </body>
 </html>
