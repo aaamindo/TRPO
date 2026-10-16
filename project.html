@@ -34,6 +34,8 @@
             padding: 20px;
             width: 320px;
             box-shadow: 0 2px 8px rgba(0,0,0,.1);
+            display: flex;
+            flex-direction: column;
         }
 
             .card:hover {
@@ -48,6 +50,7 @@
 
             .card p {
                 font-size: .9rem;
+                flex-grow: 1;
             }
 
         .status {
@@ -73,6 +76,11 @@
             color: #1e40af;
         }
 
+        .new {
+            background: #fae8ff;
+            color: #86198f;
+        }
+
         .team {
             border-top: 1px solid #eee;
             padding-top: 10px;
@@ -96,6 +104,24 @@
             border-radius: 12px;
             margin: 2px;
         }
+
+        .download {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 14px;
+            background: #2563eb;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: .85rem;
+            font-weight: bold;
+            text-align: center;
+            transition: background .2s;
+        }
+
+            .download:hover {
+                background: #1d4ed8;
+            }
 
         footer {
             text-align: center;
@@ -145,6 +171,20 @@
                 <span class="name">Максимович Арсений</span>
                 <span class="name">Ходарович Никита</span>
             </div>
+        </div>
+
+        <!-- НОВЫЙ ПРОЕКТ -->
+        <div class="card">
+            <span class="status new">Новый проект</span>
+            <h2>🤖 NeuroChat AI</h2>
+            <p>Умный чат-бот на основе нейросетей для автоматизации поддержки клиентов. Понимает контекст, работает с документами и интегрируется с CRM-системами.</p>
+            <div class="team">
+                <b>Команда:</b>
+                <span class="name">Садоха Даник</span>
+                <span class="name">Максимович Арсений</span>
+                <span class="name">Ходарович Никита</span>
+            </div>
+            <a class="download" href="presentation/NeuroChatAI.pptx" download>📥 Скачать презентацию</a>
         </div>
 
     </div>
